@@ -2,7 +2,7 @@
 # Використання бібліотеки pyautogui для натискання клавіш та pillow для обробки зображень
 # '`' для start/finish чітера
 # tkinter для відображення "пітонівського зору" м окреме вікно виводить що саме потрапило у вказані координати перед натисканням пробілу
-# webbrowser для відкриття сторінки https://dinorunner.com
+# webbrowser для відкриття сторінки     https://dinorunner.com
 
 import keyboard
 import pyautogui
@@ -10,7 +10,7 @@ from PIL import ImageGrab, ImageOps, ImageTk
 import tkinter as tk
 import time
 import numpy as np
-import winsound
+# import winsound
 import webbrowser
 
 
@@ -32,7 +32,7 @@ label.pack()
 def update_screenshot():
     screenshot = ImageGrab.grab(box)
     tk_image = ImageTk.PhotoImage(screenshot)
-    label.config(image=tk_image)
+    label.config( image = tk_image )
     label.image = tk_image  # Зберегти посилання на зображення, щоб воно не видалилось збирачем сміття
     root.update_idletasks()
     root.update()
