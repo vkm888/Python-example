@@ -15,4 +15,4 @@ keyboard.add_hotkey('`', change)
 while True:
     if work:
         mouse.click(button='left')
-        time.sleep(0.1)
+        time.sleep(0.05)
