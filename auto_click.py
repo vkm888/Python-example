@@ -1,5 +1,5 @@
 # код виконує авто клік мишки
-# '`' для start/finish
+# " ` " для start/finish
 # для перевірки відкривається наступний сайт  https://clickspeedtest.com/10-seconds.html
 
 import keyboard
